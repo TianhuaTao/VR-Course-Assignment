@@ -14,12 +14,12 @@
 
 在 Windows 上的运行展示：
 
-![Maze Windows](https://github.com/TianhuaTao/VR-Course-Assignment/edit/master/assignment-1-maze/Maze%20Windows.png)
+![Maze Windows](https://github.com/TianhuaTao/VR-Course-Assignment/blob/master/assignment-1-maze/Maze%20Windows.png?raw=true)
 *Windows 运行截图，使用鼠标和 WASD 控制，视角无限制，可以进入物体内部*
 
 在 Android 上的运行展示：
 
-![Maze Android](https://github.com/TianhuaTao/VR-Course-Assignment/blob/master/assignment-1-maze/Maze%20Android.jpg)
+![Maze Android](https://github.com/TianhuaTao/VR-Course-Assignment/blob/master/assignment-1-maze/Maze%20Android.jpg?raw=true)
 *Android 运行截图，使用按钮控制，视角限制高度（ y坐标），不可以进入物体内部*
 
 ## 运行代码
