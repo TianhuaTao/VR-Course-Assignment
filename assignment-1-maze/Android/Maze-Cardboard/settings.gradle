@@ -1,0 +1,2 @@
+include ':sdk',':app',
+rootProject.name = "Maze-VR"

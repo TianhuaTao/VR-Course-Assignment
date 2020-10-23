@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:1-34:12
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:2:11-69
+uses-feature#0x00020000
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:5:5-78
+	android:glEsVersion
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:5:19-51
+	android:required
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:5:52-75
+uses-permission#android.permission.CAMERA
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.NFC
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:9:5-61
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:9:22-59
+application
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:12:5-33:19
+activity#com.google.cardboard.sdk.QrCodeCaptureActivity
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:13:9-17:39
+	android:label
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:15:13-67
+	android:exported
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:17:13-37
+	android:theme
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:14:13-74
+activity#com.google.cardboard.sdk.HeadsetDetectionActivity
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:21:9-32:20
+	android:label
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:23:13-69
+	android:exported
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:22:13-77
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:scheme:cardboard
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:27:13-31:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:28:25-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:29:27-73
+data
+ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:30:17-52
+	android:scheme
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml:30:23-49
+uses-sdk
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
+		INJECTED from /Users/sam/Workspace/Maze-VR/sdk/qrcode/android/AndroidManifest.xml
