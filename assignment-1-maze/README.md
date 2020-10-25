@@ -8,7 +8,7 @@
 
 本次实验中，我首先在 Windows 上使用 GLFW 实现了一个版本。
 
-然后我将其移植到了 Android 平台上。
+然后我将其移植到了 Android 平台上，最后使用 Cardboard SDK 构建了一个 VR 版本。
 
 ## 成果展示
 
@@ -21,6 +21,11 @@
 
 ![Maze Android](https://github.com/TianhuaTao/VR-Course-Assignment/blob/master/assignment-1-maze/Maze%20Android.jpg?raw=true)
 *Android 运行截图，使用按钮控制，视角限制高度（ y坐标），不可以进入物体内部*
+
+在 Android 使用 Cardboard 的运行展示：
+
+![Maze Android VR](https://github.com/TianhuaTao/VR-Course-Assignment/blob/master/assignment-1-maze/Maze%20Android%20VR.jpg?raw=true)
+*Android VR 运行截图，转头控制方向，按住 Cardboard 上的交互按钮（相当于按住屏幕）向前移动*
 
 ## 运行代码
 
@@ -45,6 +50,12 @@
 - 真机调试时需要设备支持 OpenGL ES3，并且不同设备的驱动支持存在差异。
 - 在 Pixel 3a API_30_x86 模拟器上测试可用。
 - 在搭载 MIUI Global 11.0.3 的 Mi MIX 2 设备上测试可用。
+
+### Android VR 平台
+
+给出了 Android Studio 工程，首先需要编译 Cardboard SDK：在 Gradle 构建列表中，双击`sdk > Tasks > build > assemble `  。
+
+之后可以编译运行 MazeGame。
 
 ## 实现参考和素材来源
 
@@ -78,6 +89,16 @@ Android 上的绘制在一个 GLSurfaceView 上完成。虽然在安卓上可以
 Java 和 C++ 的接口其实就是 `GLSurfaceView.Renderer` 要重写的三个函数，只需要把它们变成 native 方法，并用 C++ 实现。按钮是在MainActivity 中放在 GLSurfaceView 上层的。
 
 C++ 部分，主要操作就是把代码用 CMake 配置成一个库 MazeGame-lib，就可以被安卓调用。由于不再能使用 GLFW，所以需要新建一个类 MazeGame 来包装游戏逻辑。调用 OpenGL 的时候要 `#include <GLES3/gl3.h>`。贴图和 shaders 保存为 assets，需要稍微写一点代码处理一下才能读取。
+
+### Android VR 平台
+
+配合 Google Cardboard 使用。
+
+程序开发没有使用 Google VR SDK，而是使用了 Google 推荐的 Cardboard SDK。目前如果要使用 Cardboard SDK 的话，则必须使用 Android NDK 开发 OpenGL。
+
+Cardboard SDK 只支持 OpenGL ES2，因此代码和之前的两个稍有不同，需要把 gles3 的内容改为 gles2 实现。
+
+程序实现中部分代码参考 Cardboard SDK 中的 Hello Cardboard 示例。 
 
 ## 待补充特性
 
