@@ -16,4 +16,4 @@ Migrate the maze scene in part 1 to Android platform, using Android NDK.
 
 ### Part 3 Android VR SDK
 
-Use Android VR SDK to make the maze scene in part 2 a VR application.
+Use Android Cardboard SDK to make the maze scene in part 2 a VR application.
